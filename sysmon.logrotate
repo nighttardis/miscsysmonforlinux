@@ -1,0 +1,10 @@
+/var/log/sysmon.log
+{
+        rotate 7
+        daily
+        missingok
+        delaycompress
+        postrotate
+                /usr/lib/rsyslog/rsyslog-rotate
+        endscript
+}
